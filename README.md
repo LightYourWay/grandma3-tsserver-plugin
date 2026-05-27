@@ -1,6 +1,6 @@
 # grandma3-tsserver-plugin
 
-A TypeScript language server plugin that sorts function completions to the bottom of the autocomplete list.
+A TypeScript language server plugin that improves the editor experience for grandMA3 plugin development.
 
 ## Why
 
@@ -40,4 +40,4 @@ It is installed automatically via `npm install` in the root project.
 npm run build
 ```
 
-Output is written to `../dist/`.
+Output is written to `./dist/`.
