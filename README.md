@@ -11,6 +11,7 @@ The grandMA3 Lua API exposes a large number of global functions. Without this pl
 The plugin wraps `getCompletionsAtPosition` and prefixes the `sortText` of any function-kinded completion entry with `zzzz_`, which moves them to the end of the sorted list. All other completion kinds are left untouched.
 
 Affected `ScriptElementKind` values:
+
 - `function`
 - `local function`
 - `member function`
@@ -24,11 +25,9 @@ The plugin is consumed as a local dependency of the root project and registered 
 
 ```json
 {
-  "compilerOptions": {
-    "plugins": [
-      { "name": "grandMA3-tsserver-plugin" }
-    ]
-  }
+	"compilerOptions": {
+		"plugins": [{ "name": "grandMA3-tsserver-plugin" }]
+	}
 }
 ```
 
