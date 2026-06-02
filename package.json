@@ -1,6 +1,6 @@
 {
 	"name": "grandma3-tsserver-plugin",
-	"version": "0.2.3",
+	"version": "0.3.0",
 	"license": "LGPL-3.0-or-later",
 	"author": "Lukas Runge Veranstaltungstechnik",
 	"main": "dist/index.js",
