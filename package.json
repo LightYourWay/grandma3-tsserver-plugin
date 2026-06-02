@@ -7,8 +7,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/LightYourWay/grandma3-tsserver-plugin.git"
+		"url": "git+https://github.com/LightYourWay/grandMA3-tsserver-plugin.git"
 	},
+	"bugs": {
+		"url": "https://github.com/LightYourWay/grandMA3-tsserver-plugin/issues"
+	},
+	"homepage": "https://github.com/LightYourWay/grandMA3-tsserver-plugin#readme",
 	"scripts": {
 		"build": "tsc -p tsconfig.json",
 		"format": "prettier --write .",

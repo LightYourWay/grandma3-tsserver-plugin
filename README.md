@@ -1,4 +1,4 @@
-# grandma3-tsserver-plugin
+# grandMA3 Typescript Server Plugin
 
 A TypeScript language server plugin that improves the editor experience for grandMA3 plugin development.
 
